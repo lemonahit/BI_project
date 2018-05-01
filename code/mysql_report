@@ -1,0 +1,18 @@
+use BIreport;
+drop table if exists ruozedata_operatetrendandcity_rep;
+CREATE TABLE ruozedata_operatetrendandcity_rep (
+  timeid varchar(12),
+  sales_amount decimal(10,2),
+  ordernums decimal(10,2),
+  deal_products decimal(10,2) ,
+  province_name varchar(32),
+  city_name varchar(32) ,
+  region_name varchar(32)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+drop table if exists ruozedata_dealcompany_rep;
+CREATE TABLE ruozedata_dealcompany_rep (
+  timeid varchar(12),
+  sales_amount decimal(10,2),
+  company varchar(100)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
