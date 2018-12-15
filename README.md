@@ -1,5 +1,5 @@
 # 项目架构
-Sqoop ==data==> HDFS ==关联==> Hive(做ETL操作) ==Sqoop==> MySQ
+Sqoop ==data==> HDFS ==关联==> Hive(做ETL操作) ==Sqoop==> MySQL
 
 # 项目业务介绍
 1. 订单表 ruozedata_order_ods
